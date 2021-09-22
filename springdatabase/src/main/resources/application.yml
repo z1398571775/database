@@ -1,0 +1,17 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.103.79.58:3306/mysql?useSSL=false&serverTimezone=UTC
+    username: root
+    password: root
+    hikari:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://47.103.79.58:3306/mysql?useSSL=false&serverTimezone=UTC
+      username: root
+      password: root
+  jpa:
+    show-sql: true
+server:
+  port: 8889
+debug: true
